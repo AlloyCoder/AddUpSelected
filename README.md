@@ -1,7 +1,7 @@
 # AddUpSelected
 A single-file python script for Notepad++ which adds up all numbers in a selection.  Flexible and tolerant of various common formattings.
 
-
+ 
 Purpose:
     This script serves as a plug-in for the Notepad++ editor, designed to sum up numbers within a selected text range.
     It aims to provide a simple and intuitive utility for everyday use, focusing on decimal notation, negative numbers,
