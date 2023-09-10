@@ -50,7 +50,7 @@ import time
 import string 
 
 MAX_PRECISION = 60
-DO_PROFILING = True 
+DO_PROFILING = False 
 
 # Pre-compiled regular expression for number matching
 COMMA_NUM_RE = re.compile(r"^\d{1,3}(,\d{3})*(\.\d+)?$")    #  match numbers that are formatted with commas as thousand separators and a period as the decimal separator. 
