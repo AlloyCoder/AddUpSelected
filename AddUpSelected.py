@@ -238,6 +238,8 @@ with localcontext() as ctx:
         if negative_numbers_count > 0:
             message += ' \nOf those, {} were negative numbers.'.format(negative_numbers_count)        
         notepad.messageBox(message) 
+    else:
+        notepad.messageBox(sum_resultstring)
          
     if skipped_due_to_precision > 0:
         notepad.messageBox('{} numbers ignored due to digit length exceeding {}'.format(skipped_due_to_precision, ctx.prec), '')
