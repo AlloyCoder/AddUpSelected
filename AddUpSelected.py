@@ -36,7 +36,7 @@ Notes:
 #
 #            7.     " -$10.00,  "   +$700.-----  ,   (00.100),    $1,000,000.-- ,   "199.99*",  "1"   and   -$$9;      " [-$400.0-;]      [-[$600*]*]    +++[[500]],   [[100.----------------*]*],   "      I consider these valid numbers.  
 #
-#  Test: total numbers of above line should be:  Selected Sum = 1000489.09      +-40    
+#  Test: total numbers of above line should be:  Selected Sum = 1000489.09 
 #
 #             7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100  40
 #           
