@@ -34,13 +34,13 @@ Notes:
 
 # Test examples: 
 #
-#            7.     " -$10.00,  "   +$700.-----  ,   (00.100),    $1,000,000.-- ,   "199.99*",  "1"   and   -$$9;      " [-$400.0-;]      [-[$600*]*]    +++[[500]],   [[100.----------------*]*],   "      I consider these valid numbers.  
+#            7.     " -$10.00,  "   +$700.-----  ,   (00.100),    $1,000,000.-- ,   "199.99*",  "1"   and   -$$9;      " [-$400.0-;]      [-[$600*]*]    +++[[500]],   [[100.----------------*]*], 
 #
-#  Test: total numbers of above line should be:  Selected Sum = 1000489.09 
+# Test: all numbers on the above line are considered valid for our purposes and should sum to:  Selected Sum = 1000489.09
 #
-#             7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100
+#            7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100
 #           
-#  Numbers below are too ambiguous, e.g. could be intended as calculations, IP addresses, etc. 
+#  Numbers below are too ambiguous, e.g. could be intended as calculations, IP addresses, etc. so sould sum to 0.
 #
 #       ~3172      "9(99)"    10,0.123  ,   2008-10-09,   ,  "   $48.00/year  " ,   70,00,00.00    -[-[40]]   7*7    11?   46.58%     1.1.0.168    5x   10-1     ]7[   *9     
 #
