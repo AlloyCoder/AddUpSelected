@@ -40,7 +40,7 @@ Notes:
 #
 #            7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100
 #           
-#  Numbers below are too ambiguous, e.g. could be intended as calculations, IP addresses, etc. so sould sum to 0.
+#  Numbers below are too ambiguous, e.g. could be intended as calculations, IP addresses, etc. so should result in "No selected valid numbers were found."
 #
 #       ~3172      "9(99)"    10,0.123  ,   2008-10-09,   ,  "   $48.00/year  " ,   70,00,00.00    -[-[40]]   7*7    11?   46.58%     1.1.0.168    5x   10-1     ]7[   *9     
 #
@@ -55,7 +55,7 @@ import time
 import string 
 
 MAX_PRECISIONDIGITS = 60
-DO_PROFILING = True 
+DO_PROFILING = False 
 
 # Pre-compiled regular expression for number matching
 COMMA_NUM_RE = re.compile(r"^\d{1,3}(,\d{3})*(\.\d+)?$")  #  match numbers that are formatted with commas as thousand separators and a period as the decimal separator. 
