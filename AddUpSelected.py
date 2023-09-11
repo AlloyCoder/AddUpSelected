@@ -38,7 +38,7 @@ Notes:
 #
 #  Test: total numbers of above line should be:  Selected Sum = 1000489.09 
 #
-#             7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100  40
+#             7    -10 700 0.1 1000000  199.99 1  -9 -400 -600 500 100
 #           
 #  Numbers below are too ambiguous, e.g. could be intended as calculations, IP addresses, etc. 
 #
