@@ -18,8 +18,9 @@ Features:
        Trailing asterisks are assumed to be neutral footnote markers, not multiplication signs. 
 
 Installation: 
-       Download the AddUpSelected.py file. Locate your Notepad++'s PythonScript Folder:
-       Navigate to C:\Users\[YourUsername]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts.       
+       Download the AddUpSelected.py file. Then locate your Notepad++'s PythonScript Folder:
+       With a freshly installed Python Script plug-in, go to Plugins->Python Script->New Script, and it will show you the relevant folder.
+       Alternatively, navigate to C:\Users\[YourUsername]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts.
        Move the Script: Copy the downloaded AddUpSelected.py file and paste it into the scripts folder within the PythonScript directory.
        Restart Notepad++: Close and reopen Notepad++.
        Verify Installation: Go to Menu > Plugins > PythonScript > Scripts. You should see AddUpSelected listed. If so, the installation was successful.
