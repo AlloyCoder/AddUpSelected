@@ -4,7 +4,7 @@ Author: AlloyCoder (with GPT-4 assistance)
 Version: 1.05
 Release Date: 9/11/2023
 License: The Unlicense (Unrestricted public domain)
-Python Version: 2.7.18 (Notepad++)
+Python Version: 2.7.18 - Developed using Notepad++ v8.5.6
 
 Purpose:
     This script serves as a plug-in for the Notepad++ editor, designed to sum up numbers within a selected text range.
