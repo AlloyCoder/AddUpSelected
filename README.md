@@ -49,3 +49,17 @@ Extra information in the pop-up notification window can inform you if:
 ## Notes
 
 This script was inspired by the TextFX number add-up plugin, which was never ported to the 64-bit version of Notepad++.
+
+## Decimal Output Formatting
+
+The script takes special care in formatting decimal numbers in the output. Here's how it handles various scenarios:
+
+- **Integers**: If the sum is an integer, it will be displayed without a decimal point. For example, `100` instead of `100.00`.
+- **Non-Integers with Perfect Two-Decimal Representation**: If the sum is a non-integer but can be perfectly represented with two decimal places, it will be displayed as such. For example, `100.50`.
+- **Non-Integers with More Than Two Decimal Places**: If the sum is a non-integer with more than two decimal places, it will be displayed in its full decimal form. For example, `100.507`.
+- **Very Small Numbers**: For numbers that are extremely small and close to zero (e.g., `1e-77`), the script will display the number in its scientific notation.
+- **Very Large Numbers**: For extremely large numbers that exceed the typical floating-point representation, the script will display the number in its scientific notation to maintain readability while preserving precision.
+
+> **Note**: The script uses Python's Decimal library for arbitrary-precision arithmetic, ensuring that the sum is as accurate as possible within the limits of the `MAX_PRECISIONDIGITS` constant.
+
+
