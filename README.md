@@ -11,7 +11,7 @@ This script serves as a plug-in for the Notepad++ editor. It is designed to sum 
 - Dollar amounts
 - Proper comma-separated thousands-grouping
 
-> **Note**: The script intentionally ignores scientific notation and anything reminiscent of arithmetic. It considers certain characters like `() []` as neutral and valid, which is a subjective choice.
+> **Note**: The script intentionally ignores anything reminiscent of arithmetic. It considers certain characters like `() []` as neutral and valid, which is a subjective choice.
 
 ## Features
 
