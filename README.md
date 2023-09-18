@@ -57,7 +57,7 @@ The script takes special care in formatting decimal numbers in the output. Here'
 - **Integers**: If the sum is an integer, it will be displayed without a decimal point. For example, `100` instead of `100.00`.
 - **Non-Integers with Perfect Two-Decimal Representation**: If the sum is a non-integer but can be perfectly represented with two decimal places, it will be displayed as such. For example, `100.50`.
 - **Non-Integers with More Than Two Decimal Places**: If the sum is a non-integer with more than two decimal places, it will be displayed in its full decimal form. For example, `100.507`.
-- **Scientific Notation**: For numbers that cannnot be exactly represented within the allowed (customizable) number of digits, the script will display the number in its scientific notation.
+- **Scientific Notation**: For numbers that cannnot be perfectly represented using the allowed (customizable) number of digits, the script will display the number in its scientific notation.
 
 > **Note**: The script uses Python's Decimal library for arbitrary-precision arithmetic, ensuring that the sum is as accurate as possible within the limits of the `MAX_PRECISIONDIGITS` constant.
 
