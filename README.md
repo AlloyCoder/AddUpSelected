@@ -41,7 +41,7 @@ This script serves as a plug-in for the Notepad++ editor. It is designed to sum 
 
 ## Additional Notifications
 
-Pop-up notifications will appear if:
+Extra information in the pop-up notification window can inform you if:
 
 - Negative numbers were processed.
 - Numbers with too many digits were encountered.
