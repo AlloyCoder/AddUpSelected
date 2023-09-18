@@ -9,9 +9,10 @@ Purpose:
     Anything reminiscent of arithmetic will be ignored and not counted.  Lots of other characters like () [] I consider neutral and valid. And yes this is highly subjective. 
 
 Features:
-    - Supports arbitrary precision up to 60 decimal places (set it with getcontext().prec= )
+    - Supports arbitrary precision up to 200 decimal places by default (or just change the MAX_PRECISIONDIGITS constant.)
     - Recognizes only the period (".") as the decimal separator.
     - Handles negative numbers and optional dollar signs.
+    - Handles simple exponential notation like 2.5E5  
     - Filters out numbers with ambiguous formatting or characters.
     - Multiple negative signs invalidate a number.  We're not doing arithmetic, just removing plausibly neutral characters from numbers,
        like [], (), $, trailing *, etc. See examples below.  
@@ -23,7 +24,7 @@ Installation:
        Alternatively, navigate to C:\Users\[YourUsername]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts.
        Move the Script: Copy the downloaded AddUpSelected.py file and paste it into the scripts folder within the PythonScript directory.
        Restart Notepad++: Close and reopen Notepad++.
-       Verify Installation: Go to Menu > Plugins > PythonScript > Scripts. You should see AddUpSelected listed. If so, the installation was successful.
+       Verify Installation: Go to Menu > Plugins > PythonScript > Scripts. You should see AddUpSelected listed.
 
 Usage:
       Select a range of text in Notepad++. Column selections can be particularly useful for adding up numbers: drag the mouse cursor over text while pressing ALT.
